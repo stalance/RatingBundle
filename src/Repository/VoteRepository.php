@@ -2,10 +2,10 @@
 
 namespace RatingBundle\Repository;
 
-use RatingBundle\Entity\Vote;
-use RatingBundle\Entity\Rating;
-use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\Persistence\ManagerRegistry;
+use RatingBundle\Entity\Rating;
+use RatingBundle\Entity\Vote;
 
 /**
  * Class VoteRepository

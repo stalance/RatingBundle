@@ -2,10 +2,10 @@
 
 namespace RatingBundle\Repository;
 
-use RatingBundle\Entity\Rating;
-use Doctrine\Common\Persistence\ManagerRegistry;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\Persistence\ManagerRegistry;
+use RatingBundle\Entity\Rating;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /**
  * Class RatingRepository
